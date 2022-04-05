@@ -20,4 +20,4 @@ SECTION 12: Univ app with Material Design (MaterializeCSS)
 * `385. Add Materialize gem and Navbar`
   * https://materializecss.com
 
-
+* `386. Add Sticky footer`

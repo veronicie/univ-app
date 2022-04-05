@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Tech University</title>
+    <title>Mango University</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
@@ -11,18 +11,47 @@
   </head>
 
   <body>
-    <nav>
-      <div class="nav-wrapper container">
-        <%= link_to 'Tech University', root_path, class: 'brand-logo' %>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><%= link_to 'Home', root_path %></li>
-          <li><%= link_to 'About', about_path %></li>
-          <li><%= link_to 'New course', courses_new_path %></li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container">
+    <header>
+      <nav>
+        <div class="nav-wrapper container">
+          <%= link_to 'Mango University', root_path, class: 'brand-logo' %>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><%= link_to 'Home', root_path %></li>
+            <li><%= link_to 'About', about_path %></li>
+            <li><%= link_to 'New course', courses_new_path %></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+   
+
+    <main class="container">
       <%= yield %>
-    </div>
+    </main>
+
+    <footer class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col l6 s12">
+            <h5 class="white-text">Mango University</h5>
+            <p class="grey-text text-lighten-4">The future of development training</p>
+          </div>
+          <div class="col l4 offset-l2 s12">
+            <h5 class="white-text">Information</h5>
+            <ul>
+              <li><%= link_to 'Home', root_path, class: 'grey-text text-lighten-3' %></li>
+              <li><%= link_to 'About', about_path, class: 'grey-text text-lighten-3' %></li>
+              <li><%= link_to 'New course', courses_new_path, class: 'grey-text text-lighten-3' %></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="container">
+        © 2022 Mango Production
+        <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
