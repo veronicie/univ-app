@@ -1,4 +1,4 @@
-# This is the finance tracker app from the Complete Ruby on Rails Developer course.
+# This is the University app from the Complete Ruby on Rails Developer course.
 
 SECTION 12: Univ app with Material Design (MaterializeCSS)
 --------------------------------
@@ -8,3 +8,5 @@ SECTION 12: Univ app with Material Design (MaterializeCSS)
   * $ git add -A
   * created repository in GH
   * $ git remote add origin git@github.com:veronicie/univ-app.git
+
+* `380. Set the home page`
