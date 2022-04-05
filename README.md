@@ -10,3 +10,5 @@ SECTION 12: Univ app with Material Design (MaterializeCSS)
   * $ git remote add origin git@github.com:veronicie/univ-app.git
 
 * `380. Set the home page`
+
+* `382. Add routes`
