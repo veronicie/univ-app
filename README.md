@@ -16,3 +16,8 @@ SECTION 12: Univ app with Material Design (MaterializeCSS)
 * `383. Add route links`
 
 * `384. Start styling the app`
+
+* `385. Add Materialize gem and Navbar`
+  * https://materializecss.com
+
+
